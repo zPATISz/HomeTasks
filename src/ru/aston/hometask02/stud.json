@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Jinx",
+    "age": 19,
+    "books": [
+      {
+        "name": "Math",
+        "year": 2000,
+        "pages": 120
+      },
+      {
+        "name": "GEO for you",
+        "year": 2010,
+        "pages": 90
+      },
+      {
+        "name": "Vogue",
+        "year": 2025,
+        "pages": 23
+      },
+      {
+        "name": "Japanise let's talk",
+        "year": 1992,
+        "pages": 202
+      },
+      {
+        "name": "Geometry",
+        "year": 2003,
+        "pages": 135
+      }
+    ]
+  },
+  {
+    "name": "Caitlin",
+    "age": 21,
+    "books": [
+      {
+        "name": "Math 2",
+        "year": 2010,
+        "pages": 140
+      },
+      {
+        "name": "GEO for you",
+        "year": 2010,
+        "pages": 90
+      },
+      {
+        "name": "Vogue",
+        "year": 2025,
+        "pages": 23
+      },
+      {
+        "name": "Easy English",
+        "year": 2018,
+        "pages": 162
+      },
+      {
+        "name": "Fabebeic",
+        "year": 2012,
+        "pages": 35
+      }
+    ]
+  },
+  {
+    "name": "Marcus",
+    "age": 16,
+    "books": [
+      {
+        "name": "Math 2",
+        "year": 2010,
+        "pages": 140
+      },
+      {
+        "name": "GEO for you",
+        "year": 2010,
+        "pages": 90
+      },
+      {
+        "name": "Go",
+        "year": 2020,
+        "pages": 57
+      },
+      {
+        "name": "Easy English",
+        "year": 2018,
+        "pages": 162
+      },
+      {
+        "name": "Geometry",
+        "year": 2003,
+        "pages": 135
+      }
+    ]
+  },
+  {
+    "name": "Fobos",
+    "age": 27,
+    "books": [
+      {
+        "name": "Math 3",
+        "year": 2025,
+        "pages": 240
+      },
+      {
+        "name": "GEO for you",
+        "year": 2010,
+        "pages": 90
+      },
+      {
+        "name": "Easy English",
+        "year": 2018,
+        "pages": 162
+      },
+      {
+        "name": "Japanise let's talk",
+        "year": 1992,
+        "pages": 202
+      },
+      {
+        "name": "Trigonometry",
+        "year": 1999,
+        "pages": 405
+      }
+    ]
+  }
+]
