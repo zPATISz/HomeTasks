@@ -15,8 +15,8 @@
       },
       {
         "name": "Vogue",
-        "year": 2025,
-        "pages": 23
+        "year": 2020,
+        "pages": 51
       },
       {
         "name": "Japanise let's talk",
@@ -46,7 +46,7 @@
       },
       {
         "name": "Vogue",
-        "year": 2025,
+        "year": 2019,
         "pages": 23
       },
       {
@@ -97,8 +97,18 @@
     "age": 27,
     "books": [
       {
+        "name": "Math",
+        "year": 2000,
+        "pages": 120
+      },
+      {
+        "name": "Math 2",
+        "year": 2010,
+        "pages": 140
+      },
+      {
         "name": "Math 3",
-        "year": 2025,
+        "year": 2000,
         "pages": 240
       },
       {
@@ -120,6 +130,11 @@
         "name": "Trigonometry",
         "year": 1999,
         "pages": 405
+      },
+      {
+        "name": "Geometry",
+        "year": 2003,
+        "pages": 135
       }
     ]
   }
