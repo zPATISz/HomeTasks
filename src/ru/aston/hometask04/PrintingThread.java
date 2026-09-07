@@ -2,10 +2,10 @@ package ru.aston.hometask04;
 
 import java.util.concurrent.Semaphore;
 
-public class PrintingThread implements Runnable{
-    private final Semaphore acquireSemaphore; // на нём поток ждёт своей очереди
-    private final Semaphore releaseSemaphore; // ему поток передаёт ход после печати
-    private final String value;               // что печатать
+public class PrintingThread implements Runnable {
+    private final Semaphore acquireSemaphore;
+    private final Semaphore releaseSemaphore;
+    private final String value;
 
     public PrintingThread(Semaphore acquireSemaphore, Semaphore releaseSemaphore, String value) {
         this.acquireSemaphore = acquireSemaphore;
@@ -17,9 +17,9 @@ public class PrintingThread implements Runnable{
     public void run() {
         while (true) {
             try {
-                acquireSemaphore.acquire(); // ждём своей очереди
+                acquireSemaphore.acquire();
                 System.out.println(value);
-                releaseSemaphore.release(); // отдаём ход другому потоку
+                releaseSemaphore.release();
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 return;
@@ -29,8 +29,8 @@ public class PrintingThread implements Runnable{
 
     static void main(String[] args) {
 
-        Semaphore semaphoreForOne = new Semaphore(1); // ход сразу у потока 1
-        Semaphore semaphoreForTwo = new Semaphore(0); // поток 2 ждёт
+        Semaphore semaphoreForOne = new Semaphore(1);
+        Semaphore semaphoreForTwo = new Semaphore(0);
 
         Thread thread1 = new Thread(
                 new PrintingThread(semaphoreForOne, semaphoreForTwo, "1"),
